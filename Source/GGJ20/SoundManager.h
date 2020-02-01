@@ -37,6 +37,9 @@ private:
 	void OnBGMCallback(EAkCallbackType CallbackType, UAkCallbackInfo* CallbackInfo);
 
 public:
+	UPROPERTY(Category = "Component", EditAnywhere)
+	class UStaticMeshComponent* Mesh;
+
 	UPROPERTY(BlueprintAssignable, Category = "Sounds|Events")
 	FSoundDelegate OnBGMStart;
 

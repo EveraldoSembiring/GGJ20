@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	505165764	Play_Placeholder_Event			\Default Work Unit\Play_Placeholder_Event	
+	1625778547	Play_BGM_Level_1			\Default Work Unit\Game\Play_BGM_Level_1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	627732656	placeholder	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\placeholder_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Temp\Placeholder\placeholder		32062528
+	1011281811	Ambistep	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep\Ambistep		23937852
 

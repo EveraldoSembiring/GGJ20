@@ -3,18 +3,21 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Placeholder_Event" ID="{A49BC9D9-C48D-4751-A114-AB975EECB31B}">
+				<Folder Name="Game" ID="{CF268FAF-C891-45FC-A5B6-1809A8235C91}" ShortID="533912597">
 					<ChildrenList>
-						<Action Name="" ID="{8F86ECC7-F3C7-4476-9E17-E66AC818BFBE}" ShortID="464188629">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Placeholder" ID="{31F6AEFE-2E39-4F64-B9F8-51576D01DD98}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_BGM_Level_1" ID="{259D48BF-6135-4211-BD68-6D5E96BC7201}">
+							<ChildrenList>
+								<Action Name="" ID="{5C5D948C-6229-48B7-A29F-24234EE447A2}" ShortID="498548492">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep" ID="{9CB87EE0-FE73-43A2-9CD4-037D669FE814}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Folder Name="Temp" ID="{0E946817-788B-4340-9504-BF65CDC266F6}" ShortID="730300944"/>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
