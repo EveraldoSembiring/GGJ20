@@ -63,9 +63,44 @@ void AGGJ20Pawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAxis(FireRightBinding);
 }
 
-void AGGJ20Pawn::Tick(float DeltaSeconds)
+//void AGGJ20Pawn::Tick(float DeltaSeconds)
+//{
+//	// Find movement direction
+//	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
+//	const float RightValue = GetInputAxisValue(MoveRightBinding);
+//
+//	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
+//	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
+//
+//	// Calculate  movement
+//	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
+//
+//	// If non-zero size, move this actor
+//	if (Movement.SizeSquared() > 0.0f)
+//	{
+//		const FRotator NewRotation = Movement.Rotation();
+//		FHitResult Hit(1.f);
+//		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
+//		
+//		if (Hit.IsValidBlockingHit())
+//		{
+//			const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
+//			const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
+//			RootComponent->MoveComponent(Deflection, NewRotation, true);
+//		}
+//	}
+//	
+//	// Create fire direction vector
+//	//const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
+//	//const float FireRightValue = GetInputAxisValue(FireRightBinding);
+//	//const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
+//
+//	//// Try and fire a shot
+//	//FireShot(FireDirection);
+//}
+
+bool AGGJ20Pawn::IsMoving()
 {
-	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
 
@@ -73,30 +108,9 @@ void AGGJ20Pawn::Tick(float DeltaSeconds)
 	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
 
 	// Calculate  movement
-	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
+	const FVector Movement = MoveDirection;
 
-	// If non-zero size, move this actor
-	if (Movement.SizeSquared() > 0.0f)
-	{
-		const FRotator NewRotation = Movement.Rotation();
-		FHitResult Hit(1.f);
-		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
-		
-		if (Hit.IsValidBlockingHit())
-		{
-			const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
-			const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
-			RootComponent->MoveComponent(Deflection, NewRotation, true);
-		}
-	}
-	
-	// Create fire direction vector
-	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
-	const float FireRightValue = GetInputAxisValue(FireRightBinding);
-	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
-
-	// Try and fire a shot
-	FireShot(FireDirection);
+	return Movement.SizeSquared() > 0.0f;
 }
 
 void AGGJ20Pawn::FireShot(FVector FireDirection)
