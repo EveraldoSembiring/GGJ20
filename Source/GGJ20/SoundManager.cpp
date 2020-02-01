@@ -1,9 +1,14 @@
 #include "SoundManager.h"
+#include "Components/StaticMeshComponent.h"
 #include <AkAudio\Classes\AkGameplayStatics.h>
 
 // Sets default values
 ASoundManager::ASoundManager()
 {
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
+	Mesh->SetVisibility(false, false);
+	SetRootComponent(Mesh);
+	
 	PrimaryActorTick.bCanEverTick = false;
 	BGMCallback.BindUFunction(this, "OnBGMCallback");
 }
