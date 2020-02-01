@@ -74,6 +74,8 @@ void ALevelManager::CheckAndStartPhaseChange(FString phaseID)
 			HaveLevelPhase = true;
 			CurrentBeat = 0;
 			CurrentColorIndex = 0;
+
+			OnPlayerChangePhase.Broadcast(CurrentLevelPhase);
 		}
 	}
 }
