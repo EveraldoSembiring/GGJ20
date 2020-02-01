@@ -58,6 +58,7 @@ public:
 DECLARE_DYNAMIC_DELEGATE(FLevelDelegate);
 DECLARE_DYNAMIC_DELEGATE_OneParam(FLevelPhaseDelegate, FString, userPhaseID);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FPlayerChangeColorDelegate, FColor, newPlayerColor);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FPlayerChangePhaseDelegate, FLevelPhase, newPhase);
 
 UCLASS()
 class GGJ20_API ALevelManager : public AActor
@@ -123,6 +124,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "Level")
 	FPlayerChangeColorDelegate OnPlayerChangeColor;
+
+	UPROPERTY(BlueprintAssignable, Category = "Level")
+	FPlayerChangePhaseDelegate OnPlayerChangePhase;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Level")
 	float CurrentTime;
