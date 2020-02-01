@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rukan\Documents\Unreal Projects\GGJ20\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1542108333" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
+			<ShortName>MasterBank</ShortName>
+			<Path>MasterBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="505165764" Name="Play_Placeholder_Event" ObjectPath="\Events\Default Work Unit\Play_Placeholder_Event"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="627732656" Language="SFX">
+					<ShortName>placeholder.wav</ShortName>
+					<Path>SFX\placeholder_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
