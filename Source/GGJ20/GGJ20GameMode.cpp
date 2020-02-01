@@ -2,10 +2,12 @@
 
 #include "GGJ20GameMode.h"
 #include "GGJ20Pawn.h"
+#include "GGJ20State.h"
 
 AGGJ20GameMode::AGGJ20GameMode()
 {
 	// set default pawn class to our character class
 	DefaultPawnClass = AGGJ20Pawn::StaticClass();
+	GameStateClass = AGGJ20State::StaticClass();
 }
 
