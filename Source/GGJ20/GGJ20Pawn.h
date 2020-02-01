@@ -43,9 +43,12 @@ public:
 	class USoundBase* FireSound;
 
 	// Begin Actor Interface
-	virtual void Tick(float DeltaSeconds) override;
+	//virtual void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End Actor Interface
+
+	UFUNCTION(BlueprintGetter, Category = "Movement")
+	bool IsMoving();
 
 	/* Fire a shot in the specified direction */
 	void FireShot(FVector FireDirection);

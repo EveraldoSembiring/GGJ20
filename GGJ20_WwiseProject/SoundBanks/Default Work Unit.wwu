@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MasterBank" ID="{921A5B90-42F1-4320-99C8-6C6EC8C5FE93}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Placeholder_Event" ID="{A49BC9D9-C48D-4751-A114-AB975EECB31B}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BGM_Level_1" ID="{259D48BF-6135-4211-BD68-6D5E96BC7201}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

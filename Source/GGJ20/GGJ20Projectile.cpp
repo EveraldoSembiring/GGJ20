@@ -6,6 +6,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Engine/StaticMesh.h"
+#include "GGJ20State.h"
+#include "GameFramework/GameStateBase.h"
 
 AGGJ20Projectile::AGGJ20Projectile() 
 {
@@ -39,6 +41,8 @@ void AGGJ20Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, U
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 20.0f, GetActorLocation());
+		AGGJ20State* const MyGameState = Cast<AGGJ20State>(GetWorld()->GetGameState());
+		MyGameState->AbsorbHealth();
 	}
 
 	Destroy();
