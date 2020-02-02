@@ -21,12 +21,36 @@
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1625778546" Name="Play_BGM_Level_0" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_0"/>
 				<Event Id="1625778547" Name="Play_BGM_Level_1" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_1"/>
+				<Event Id="3826214393" Name="Play_SFX_Absorb" ObjectPath="\Events\Default Work Unit\Game\Play_SFX_Absorb"/>
+				<Event Id="2723934611" Name="Play_SFX_Absorb_Wrong" ObjectPath="\Events\Default Work Unit\Game\Play_SFX_Absorb_Wrong"/>
+				<Event Id="695232855" Name="Stop_SFX_Absorb" ObjectPath="\Events\Default Work Unit\Game\Stop_SFX_Absorb"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="1011281811" Language="SFX">
-					<ShortName>Ambistep.wav</ShortName>
-					<Path>SFX\Ambistep_D79FB2B7.wem</Path>
+				<File Id="270444888" Language="SFX">
+					<ShortName>GAME JAM.wav</ShortName>
+					<Path>SFX\GAME JAM_D79FB2B7.wem</Path>
+				</File>
+				<File Id="599873937" Language="SFX">
+					<ShortName>Ambistep Arpeggio.wav</ShortName>
+					<Path>SFX\Ambistep Arpeggio_D79FB2B7.wem</Path>
+				</File>
+				<File Id="667195854" Language="SFX">
+					<ShortName>Wrong_3.wav</ShortName>
+					<Path>SFX\Wrong_3_10C4C929.wem</Path>
+				</File>
+				<File Id="747541655" Language="SFX">
+					<ShortName>Ambistep_belled.wav</ShortName>
+					<Path>SFX\Ambistep_belled_D79FB2B7.wem</Path>
+				</File>
+				<File Id="826588788" Language="SFX">
+					<ShortName>Wrong_2.wav</ShortName>
+					<Path>SFX\Wrong_2_10C4C929.wem</Path>
+				</File>
+				<File Id="1056420030" Language="SFX">
+					<ShortName>Wrong_1.wav</ShortName>
+					<Path>SFX\Wrong_1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

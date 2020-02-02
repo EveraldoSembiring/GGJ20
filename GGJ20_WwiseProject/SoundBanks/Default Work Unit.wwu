@@ -6,6 +6,10 @@
 				<SoundBank Name="MasterBank" ID="{921A5B90-42F1-4320-99C8-6C6EC8C5FE93}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_BGM_Level_1" ID="{259D48BF-6135-4211-BD68-6D5E96BC7201}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_SFX_Absorb" ID="{6EACCE72-80D2-4860-B63B-4B3CA8C73037}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Absorb" ID="{569127FE-387D-4D22-A86C-BF54437D1CCC}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Absorb_Wrong" ID="{C12B58CA-0990-4EC9-8CAF-B381C1B599B3}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BGM_Level_0" ID="{17A357AE-D99B-4EF9-8220-2722FC526871}" WorkUnitID="{712791C0-28B5-4B7A-81D6-23FDFA915265}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -10,7 +10,76 @@
 								<Action Name="" ID="{5C5D948C-6229-48B7-A29F-24234EE447A2}" ShortID="498548492">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambistep" ID="{9CB87EE0-FE73-43A2-9CD4-037D669FE814}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+											<ObjectRef Name="Ambistep_belled" ID="{ADB187A1-A4D1-446A-BFBE-925823E47BB7}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E04F02E-3144-4C22-B4BD-FCB84996D98B}" ShortID="5704345">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{51137D51-588F-4A65-AE04-67DF22E61170}" ShortID="900239700">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BGM_Level_0" ID="{17A357AE-D99B-4EF9-8220-2722FC526871}">
+							<ChildrenList>
+								<Action Name="" ID="{A71E7A1B-592C-45D7-A6F1-6B58857A948F}" ShortID="362034996">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAME JAM" ID="{39062FC8-5AD6-455F-8F93-110F31EEB2EF}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Absorb" ID="{569127FE-387D-4D22-A86C-BF54437D1CCC}">
+							<ChildrenList>
+								<Action Name="" ID="{333A95BB-6869-4602-80B9-079F715D9FC9}" ShortID="355843239">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Absorb" ID="{6EACCE72-80D2-4860-B63B-4B3CA8C73037}">
+							<ChildrenList>
+								<Action Name="" ID="{E5B7162A-C1EB-457A-BFBD-F329FD6A79B6}" ShortID="559380696">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Absorb_Wrong" ID="{C12B58CA-0990-4EC9-8CAF-B381C1B599B3}">
+							<ChildrenList>
+								<Action Name="" ID="{33559368-0BD1-4C64-8C83-21003F61CAE5}" ShortID="564590705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wrong" ID="{5E48C019-3051-47F9-8AE3-1437B22F131C}" WorkUnitID="{C0EF0236-B342-44E8-AA1F-00DA59F47C26}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
