@@ -1,2 +1,5 @@
 MasterBank	"Play_BGM_Level_1"
+MasterBank	"Play_SFX_Absorb_Wrong"
 MasterBank	"Play_BGM_Level_0"
+MasterBank	"Play_SFX_Absorb"
+MasterBank	"Stop_SFX_Absorb"

@@ -1,8 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
+	695232855	Stop_SFX_Absorb			\Default Work Unit\Game\Stop_SFX_Absorb	
 	1625778546	Play_BGM_Level_0			\Default Work Unit\Game\Play_BGM_Level_0	
 	1625778547	Play_BGM_Level_1			\Default Work Unit\Game\Play_BGM_Level_1	
+	2723934611	Play_SFX_Absorb_Wrong			\Default Work Unit\Game\Play_SFX_Absorb_Wrong	
+	3826214393	Play_SFX_Absorb			\Default Work Unit\Game\Play_SFX_Absorb	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	270444888	GAME JAM	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\GAME JAM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\GAME JAM\GAME JAM		25874576
-	989455786	Ambistep Take 2	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep Take 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep Take 2\Ambistep Take 2		48922952
+	599873937	Ambistep Arpeggio	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep Arpeggio_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep Arpeggio\Ambistep Arpeggio		47040128
+	667195854	Wrong_3	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Wrong_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Wrong\Wrong_3		117728
+	747541655	Ambistep_belled	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep_belled_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep_belled\Ambistep_belled		48924176
+	826588788	Wrong_2	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Wrong_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Wrong\Wrong_2		117728
+	1056420030	Wrong_1	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Wrong_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Wrong\Wrong_1		117728
 
