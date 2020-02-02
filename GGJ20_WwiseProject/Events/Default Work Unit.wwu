@@ -14,23 +14,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{2E04F02E-3144-4C22-B4BD-FCB84996D98B}" ShortID="5704345">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{51137D51-588F-4A65-AE04-67DF22E61170}" ShortID="900239700">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="4"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_BGM_Level_0" ID="{17A357AE-D99B-4EF9-8220-2722FC526871}">
@@ -80,6 +63,27 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Wrong" ID="{5E48C019-3051-47F9-8AE3-1437B22F131C}" WorkUnitID="{C0EF0236-B342-44E8-AA1F-00DA59F47C26}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BGM_Level_1_Arpeggio" ID="{2D2A3850-AA6D-4C19-B15E-E43C3E3BAD52}">
+							<ChildrenList>
+								<Action Name="" ID="{402FA7C5-BF61-4FC1-BCE4-B79EAF071A67}" ShortID="406210133">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{11C3D2A0-C46C-4686-98A2-AB18063684AE}" ShortID="789943726">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambistep Arpeggio" ID="{33E85AAC-79BF-4EAC-9A67-932C12546E54}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

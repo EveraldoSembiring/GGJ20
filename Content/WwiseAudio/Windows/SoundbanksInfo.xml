@@ -23,6 +23,7 @@
 			<IncludedEvents>
 				<Event Id="1625778546" Name="Play_BGM_Level_0" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_0"/>
 				<Event Id="1625778547" Name="Play_BGM_Level_1" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_1"/>
+				<Event Id="3991031484" Name="Play_BGM_Level_1_Arpeggio" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_1_Arpeggio"/>
 				<Event Id="3826214393" Name="Play_SFX_Absorb" ObjectPath="\Events\Default Work Unit\Game\Play_SFX_Absorb"/>
 				<Event Id="2723934611" Name="Play_SFX_Absorb_Wrong" ObjectPath="\Events\Default Work Unit\Game\Play_SFX_Absorb_Wrong"/>
 				<Event Id="695232855" Name="Stop_SFX_Absorb" ObjectPath="\Events\Default Work Unit\Game\Stop_SFX_Absorb"/>

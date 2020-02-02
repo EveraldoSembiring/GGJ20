@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1625778547	Play_BGM_Level_1			\Default Work Unit\Game\Play_BGM_Level_1	
 	2723934611	Play_SFX_Absorb_Wrong			\Default Work Unit\Game\Play_SFX_Absorb_Wrong	
 	3826214393	Play_SFX_Absorb			\Default Work Unit\Game\Play_SFX_Absorb	
+	3991031484	Play_BGM_Level_1_Arpeggio			\Default Work Unit\Game\Play_BGM_Level_1_Arpeggio	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	270444888	GAME JAM	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\GAME JAM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\GAME JAM\GAME JAM		25874576
