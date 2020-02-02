@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1625778546	Play_BGM_Level_0			\Default Work Unit\Game\Play_BGM_Level_0	
 	1625778547	Play_BGM_Level_1			\Default Work Unit\Game\Play_BGM_Level_1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1011281811	Ambistep	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep\Ambistep		23937852
+	270444888	GAME JAM	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\GAME JAM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\GAME JAM\GAME JAM		25874576
+	989455786	Ambistep Take 2	C:\Users\rukan\Documents\Unreal Projects\GGJ20\GGJ20_WwiseProject\.cache\Windows\SFX\Ambistep Take 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Ambistep Take 2\Ambistep Take 2		48922952
 

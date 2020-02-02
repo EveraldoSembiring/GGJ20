@@ -10,7 +10,18 @@
 								<Action Name="" ID="{5C5D948C-6229-48B7-A29F-24234EE447A2}" ShortID="498548492">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambistep" ID="{9CB87EE0-FE73-43A2-9CD4-037D669FE814}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+											<ObjectRef Name="Ambistep Take 2" ID="{5E0139BA-9079-4150-B5C8-BFD7C115C51F}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BGM_Level_0" ID="{17A357AE-D99B-4EF9-8220-2722FC526871}">
+							<ChildrenList>
+								<Action Name="" ID="{A71E7A1B-592C-45D7-A6F1-6B58857A948F}" ShortID="362034996">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAME JAM" ID="{39062FC8-5AD6-455F-8F93-110F31EEB2EF}" WorkUnitID="{00DDD968-A9A0-4199-806F-9D74C040CAC9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
