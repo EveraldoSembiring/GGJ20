@@ -1,6 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C0EF0236-B342-44E8-AA1F-00DA59F47C26}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{C0EF0236-B342-44E8-AA1F-00DA59F47C26}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C0EF0236-B342-44E8-AA1F-00DA59F47C26}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{8D8532A4-B940-40B5-9B7C-6F619E7A6AA9}" ShortID="246824010">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Wrong" ID="{5E48C019-3051-47F9-8AE3-1437B22F131C}" ShortID="665804130">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDB92879-8BBA-4544-BDB7-21F5A298DE6A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B85EDF63-D3D4-489F-A42C-B76E8021B414}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wrong_1" ID="{41A9DD88-E958-4754-9019-BC6D357DE436}" ShortID="674876392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDB92879-8BBA-4544-BDB7-21F5A298DE6A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B85EDF63-D3D4-489F-A42C-B76E8021B414}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wrong_1" ID="{B868BD77-5201-4192-9676-CF5EB730B416}" ShortID="1056420030">
+											<Language>SFX</Language>
+											<AudioFile>Wrong_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wrong_1" ID="{B868BD77-5201-4192-9676-CF5EB730B416}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wrong_2" ID="{8549EB27-DD10-42A3-8E6E-3C658F257869}" ShortID="931800676">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDB92879-8BBA-4544-BDB7-21F5A298DE6A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B85EDF63-D3D4-489F-A42C-B76E8021B414}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wrong_2" ID="{C9DEE5D6-B4B4-497B-800D-6C39D680F11E}" ShortID="826588788">
+											<Language>SFX</Language>
+											<AudioFile>Wrong_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wrong_2" ID="{C9DEE5D6-B4B4-497B-800D-6C39D680F11E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wrong_3" ID="{5E1CFC15-EDD5-4B11-9F02-82E00A4D0A25}" ShortID="15697122">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDB92879-8BBA-4544-BDB7-21F5A298DE6A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B85EDF63-D3D4-489F-A42C-B76E8021B414}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wrong_3" ID="{D9ECD626-AB1C-408F-9F29-12E140B57171}" ShortID="667195854">
+											<Language>SFX</Language>
+											<AudioFile>Wrong_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wrong_3" ID="{D9ECD626-AB1C-408F-9F29-12E140B57171}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
