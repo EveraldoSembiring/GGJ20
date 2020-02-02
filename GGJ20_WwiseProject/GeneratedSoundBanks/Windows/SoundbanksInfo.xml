@@ -21,12 +21,17 @@
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1625778546" Name="Play_BGM_Level_0" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_0"/>
 				<Event Id="1625778547" Name="Play_BGM_Level_1" ObjectPath="\Events\Default Work Unit\Game\Play_BGM_Level_1"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="1011281811" Language="SFX">
-					<ShortName>Ambistep.wav</ShortName>
-					<Path>SFX\Ambistep_D79FB2B7.wem</Path>
+				<File Id="270444888" Language="SFX">
+					<ShortName>GAME JAM.wav</ShortName>
+					<Path>SFX\GAME JAM_D79FB2B7.wem</Path>
+				</File>
+				<File Id="989455786" Language="SFX">
+					<ShortName>Ambistep Take 2.wav</ShortName>
+					<Path>SFX\Ambistep Take 2_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

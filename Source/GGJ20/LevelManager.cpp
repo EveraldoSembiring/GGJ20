@@ -72,7 +72,7 @@ void ALevelManager::CheckAndStartPhaseChange(FString phaseID)
 		{
 			CurrentLevelPhase = levelPhase;
 			HaveLevelPhase = true;
-			CurrentBeat = 0;
+			CurrentBeat = CurrentLevelPhase.ChangeColorPerBeat - 2; // this will start the beat before real phase change, so next one will be change color
 			CurrentColorIndex = 0;
 
 			OnPlayerChangePhase.Broadcast(CurrentLevelPhase);

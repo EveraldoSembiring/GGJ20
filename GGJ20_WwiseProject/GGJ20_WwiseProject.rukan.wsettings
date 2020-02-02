@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{181CCA4D-6E6F-4D1D-B4D1-649FB8EACA57}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\rukan\Downloads"/>
+				<Property Name="Event Action List\{17A357AE-D99B-4EF9-8220-2722FC526871}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{259D48BF-6135-4211-BD68-6D5E96BC7201}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A49BC9D9-C48D-4751-A114-AB975EECB31B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -27,7 +28,9 @@
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="BGKI66tOI0yFM1qQae6yRQH/////////imE/Oo5JxESnx0dFFTi6agH/////////"/>
 				<Property Name="Interactive Music\x64_{31F6AEFE-2E39-4F64-B9F8-51576D01DD98} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D9hj8L1KFzzPwAAAAAA4BVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{9CB87EE0-FE73-43A2-9CD4-037D669FE814} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D+MnCBcVt4BQN3Lz2W0TB1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAABxA"/>
+				<Property Name="Interactive Music\x64_{39062FC8-5AD6-455F-8F93-110F31EEB2EF} - SegmentEditorZoomInfo" Type="string" Value="1n5a+/Et/z9dj8L1KFzzP2TYXUtFGxtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{5E0139BA-9079-4150-B5C8-BFD7C115C51F} - SegmentEditorZoomInfo" Type="string" Value="O6pLi4C1EEDZvFUbCakiQJ+abMEfrAxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{9CB87EE0-FE73-43A2-9CD4-037D669FE814} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D+NnCBcVt4BQN3Lz2W0TB1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
